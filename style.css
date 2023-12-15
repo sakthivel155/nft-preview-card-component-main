@@ -13,20 +13,36 @@ body{
 }
 .card{
     background-color: hsl(216, 50%, 16%);
-    height: 520px;
+    height:515px;
     width: 310px;
     border-radius: 13px;
-    
-}
+} 
 .img{
     padding: 20px;
+   
+}
+.background{
+    background-color: aqua;
+    border-radius: 13px;
+    height: 270px;
+}
+.background > svg{
+    position:absolute;
+    margin-top: 113px;
+    margin-left: 113px;
+} 
+a > img:active{
+    opacity:40%;
+    
+    
 }
 img{
-   
+    position: relative;
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
 }
+
 .text{
     height: auto;
     padding: 20px;
@@ -35,8 +51,13 @@ img{
 h3{
     margin-top: 0px;
     margin-bottom:0px;
-    
     color: hsl(0, 0%, 100%);
+}
+a{
+    text-decoration: none;
+}
+h3:active{
+    color:hsl(178, 100%, 50%);
 }
 .detail{
     margin-top: 10px;
@@ -87,8 +108,13 @@ div > p{
     margin-top: 8px;
     color:hsl(215, 51%, 70%);
 }
-p > span{
+a > span{
     color:white
+
+}
+span:active{
+
+    color:hsl(178, 100%, 50%);
 }
 @media screen and (max-width:376px) {
     .card{

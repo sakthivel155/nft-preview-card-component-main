@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    font-family: Outfit;
+    font-size: 18px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    height: 520px;
+    width: 310px;
+    border-radius: 13px;
+    
+}
+.img{
+    padding: 20px;
+}
+img{
+   
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.text{
+    height: auto;
+    padding: 20px;
+    padding-top: 0px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom:0px;
+    
+    color: hsl(0, 0%, 100%);
+}
+.detail{
+    margin-top: 10px;
+    color:hsl(215, 27%, 56%);
+    font-size: 15.5px;
+    line-height: 25px;
+}
+.price_and_days{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.price > p ,.days > p {
+    margin: 0px;
+    font-size:15px;
+    float: right;
+}
+.price > p{
+    color:hsl(178, 100%, 50%);
+    
+}
+.days >p{
+    color: hsl(215, 51%, 70%);
+}
+hr{ 
+    border-color: hsl(215, 32%, 27%);
+    border-style: solid;
+}
+.createdby{
+    display:flex;
+    gap: 15px;
+    margin-top: 13px;
+    font-size: 15px;
+}
+.avatar{
+    
+    height:33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: white;
+}
+.avatar > img{
+    margin: 1px;
+    height: 30px;
+    width: 30px;
+}
+div > p{
+    margin-top: 8px;
+    color:hsl(215, 51%, 70%);
+}
+p > span{
+    color:white
+}
+@media screen and (max-width:376px) {
+    .card{
+        height:490px;
+    }
+    .img{
+        padding-bottom: 5px;
+    }    
+}
